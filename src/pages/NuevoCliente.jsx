@@ -32,7 +32,7 @@ const NuevoCliente = () => {
     const errores = useActionData()
     const navigate = useNavigate()
 
-    console.log(errores)
+    //console.log(errores)
     return(
         <>
             <h1 className="font-black text-4xl text-blue-900">Nuevo cliente</h1>
