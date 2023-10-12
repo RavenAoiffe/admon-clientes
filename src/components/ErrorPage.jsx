@@ -12,7 +12,7 @@ export default function ErrorPage(){
                Hubo un error
             </p>
             <p className="text-center">
-                {error.message}
+                {error.statusText || error.message}
             </p>
         </div>
     )
